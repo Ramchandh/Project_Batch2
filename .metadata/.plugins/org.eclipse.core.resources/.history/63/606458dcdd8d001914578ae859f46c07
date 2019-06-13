@@ -1,0 +1,18 @@
+package company_overview;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class why_adactin {
+	
+	public static WebDriver driver;
+	
+	public static void whyadactin()
+	{
+		driver.findelement(by.xpath("//*[@id="mega-menu-item-16789"]/a")).click;
+		driver.f
+	}
+	
+	
+
+}

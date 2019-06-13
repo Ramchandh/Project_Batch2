@@ -1,0 +1,26 @@
+package company_overview;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class ss {
+	 public static WebDriver driver;
+	 
+	 
+		public static void method1()
+		{
+			driver.findElement(By.xpath("//*[@id=\"mega-menu-item-17906\"]/a")).click();
+			
+			//*[@id="mega-menu-item-17585"]/a
+		}
+		public static void method2()
+		{
+			driver.findElement(By.linkText("Product Partners")).click();
+			boolean a=driver.findElement(By.xpath("//div[1]/div/div/div/div/div/div/div[1]/div/div/div/div/div/img")).isDisplayed();
+			System.out.println(a);
+		}
+
+
+	}
+
+}
